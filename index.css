@@ -1,0 +1,60 @@
+body {
+    font-family: lobster;
+    background: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.spacer{
+    padding: 5%;
+}
+
+.block {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    width: 75%;
+    margin: auto;
+    border-radius: 15px;
+    font-size:  1.5em;
+    padding: 3%;
+
+}
+.block2{
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    width: 37.5%;
+    margin: auto;
+    border-radius: 15px;
+    font-size:  1.5em;
+    padding: 3%;
+
+
+}
+img{
+    border-radius: 10%;
+    width: 200px;
+    height: 200px;
+
+
+}
+.card-img-top{
+    width: 300px;
+}
+.custom{
+    width: 80px;
+}
+
+.card{
+    text-align: center;
+    margin: auto;
+
+}
+
+
+
+
+.card-text{
+    font-size: .8em;
+}
