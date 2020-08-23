@@ -1,68 +1,153 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
-<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="node_modules/font-mfizz/dist/font-mfizz.css">
+
+
 <link rel="stylesheet" href="index.css">
-<script src="projectController.js"></script>
+<!--<script src="projectController.js"></script>-->
 <body>
 <div class='container-fluid'>
 
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand" href="#top">Brianna's Portfolio</a>
+                <a class="navbar-brand" href="#top">Brianna Althage</a>
             </div>
             <ul class="nav navbar-nav">
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">Skills</a></li>
+                <li><a href="#portfolio">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            <ul class="nav navbar-nav navbar-right">
 
-                <li><a href="https://codepen.io/brianna4444/" target="blank"><span class="fa fa-pencil-square-o"></span> Brianna's Pens</a></li>
-            </ul>
         </div>
     </nav>
     <a name="top"></a>
     <div class="spacer"></div>
     <a name="about"></a>
-    <div class="block ">
-        <h1 class="text-center">Brianna</h1>
+    <div class="block">
+        <div class="row text-center">
+            <h1>I am a full stack developer creating responsive websites, admin panels, and apps.</h1>
+        </div>
         <hr>
         <br>
-        <p align="center">
-            Love Coding. Love Learning.
+        <div class="row about p-1" align="center">
+            <h1>Technologies</h1>
+            <br>
+            <div class="col-xs-4">
+
+                <ul>AngularJS <i class="icon-angular" style="color:red"></i></ul>
+                <ul>Bootstrap <i class="icon-bootstrap" style="color:rebeccapurple"></i></ul>
+                    <ul>nginx <i class="icon-nginx" style="color:green"></i></ul>
 
 
 
-        </p>
+                </div>
+            <div class="col-xs-4">
+                <ul >Express <span style="font-family: Arial; font-weight: lighter; font-size: 15px; background-color: white; color: black; width: max-content">Express</span></ul>
+                <ul>MongoDB <i class="icon-mongodb" style="color:green"></i> </ul>
+                <ul>npm <i class="icon-npm" style="color:red"></i></ul>
+
+            </div>
+
+            <div class="col-xs-4">
+
+                <ul>Node.JS <i class="icon-nodejs" style="color:green"></i></ul>
+                <ul>JavaScript <i class="icon-javascript" style="color:yellow"></i></ul>
+                <ul>Ubuntu <i class="icon-ubuntu" style="color:red"></i></ul>
+
+            </div>
+
+        </div>
 
     </div>
     <div class="spacer"></div>
     <a name="portfolio"></a>
     <div class="block">
-        <h1 class="text-center">Portfolio</h1>
+        <h1 class="text-center">Projects</h1>
         <hr>
         <br>
         <div class="row text-center" style="padding: 5%">
             <div class="col-md-6">
                 <div class="card" style="width: 300px;">
-                    <img class="card-img-top" src=https://codepen.io/brianna4444/pen/dJXZEZ/image/small.png  alt="Card image cap">
+                    <img class="card-img-top"
+                         src="reeshaThumbnail.png"
+                         alt="Card image cap">
                     <div class="card-block">
-                        <a href="https://codepen.io/brianna4444/pen/dJXZEZ"<h4 class="card-title" target="_blank" >Tribute Page</h4></a>
-                        <p class="card-text">Kary Mullis</p>
+                        <a href="http://reeshacollection.com"<h4 class="card-title" target="_blank">Reesha's Collection Website</h4></a>
+                        <p class="card-text">Retail Website using AngularJS and MongoDB. Featuring interactive Banner and Favorites Cart. </p>
 
                     </div>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="card" style="width: 300px;">
-                    <img class="card-img-top" src=https://codepen.io/brianna4444/pen/aqwweb/image/small.png alt="Card image cap">
+                    <img class="card-img-top"
+                         src="reeshaAdmin.png"
+                         alt="Card image cap">
                     <div class="card-block">
-                        <a href="https://codepen.io/brianna4444/full/aqwweb/"<h4 class="card-title" target="_blank" >Random Quote Machine 1</h4></a>
+                        <a href="#"<h4 class="card-title" target="_blank">Reesha's Collection Admin Panel</h4></a>
+                        <p class="card-text">Easy and visual user experience for managing products and website interface </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center" style="padding: 5%">
+            <div class="col-md-6">
+                <div class="card" style="width: 300px;">
+                    <img class="card-img-top"
+                         src="tacThumbnail.png"
+                         alt="Card image cap">
+                    <div class="card-block">
+                        <a href="http://tactravels.com"<h4 class="card-title" target="_blank">TAC Travels Website</h4></a>
+                        <p class="card-text">Travel Agency website using Bootstrap and MongoDB to manage destination images, reviews, and website interface</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card" style="width: 300px;">
+                    <img class="card-img-top"
+                         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmiVlrCrWv7VGOeqL1DJSIZiP-5d7rA3sILjNqYhV_WXlGQdCO"
+                         alt="Card image cap">
+                    <div class="card-block">
+                        <a href="#"<h4 class="card-title" target="_blank">TAC Travels Admin Panel</h4></a>
+                        <p class="card-text">Easy drag and drop photo upload </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row text-center" style="padding: 5%">
+            <div class="col-md-6">
+                <div class="card" style="width: 300px;">
+                    <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmiVlrCrWv7VGOeqL1DJSIZiP-5d7rA3sILjNqYhV_WXlGQdCO"
+                         alt="Card image cap">
+                    <div class="card-block">
+                        <a href="https://codepen.io/brianna4444/pen/dJXZEZ"<h4 class="card-title" target="_blank">
+                        Card Title</h4></a>
+                        <p class="card-text">Card Text</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card" style="width: 300px;">
+                    <img class="card-img-top" src=https://codepen.io/brianna4444/pen/aqwweb/image/small.png
+                         alt="Card image cap">
+                    <div class="card-block">
+                        <a href="https://codepen.io/brianna4444/full/aqwweb/"<h4 class="card-title" target="_blank">
+                        Random Quote Machine 1</h4></a>
                         <p class="card-text">Clean and modern look </p>
 
                     </div>
@@ -75,7 +160,8 @@
                     <img class="card-img-top" src=https://codepen.io/brianna4444/pen/NywgpP/image/small.png
                          alt="Card image cap">
                     <div class="card-block">
-                        <a href="https://codepen.io/brianna4444/full/NywgpP/"<h4 class="card-title" target="_blank" >Random Quote Machine 2</h4></a>
+                        <a href="https://codepen.io/brianna4444/full/NywgpP/"<h4 class="card-title" target="_blank">
+                        Random Quote Machine 2</h4></a>
                         <p class="card-text">Inspirational look</p>
 
                     </div>
@@ -83,20 +169,26 @@
             </div>
             <div class="col-md-6">
                 <div class="card" style="width: 300px;">
-                    <img class="card-img-top" src=https://codepen.io/brianna4444/pen/bLaewP/image/small.png alt="Card image cap">
+                    <img class="card-img-top" src=https://codepen.io/brianna4444/pen/bLaewP/image/small.png
+                         alt="Card image cap">
                     <div class="card-block">
-                        <a href="https://codepen.io/brianna4444/full/bLaewP/"<h4 class="card-title" target="_blank" >Weather App</h4></a>
+                        <a href="https://codepen.io/brianna4444/full/bLaewP/"<h4 class="card-title" target="_blank">
+                        Weather App</h4></a>
                         <p class="card-text">Shows the local weather</p>
 
                     </div>
-                </div><br><br><br>
+                </div>
+                <br><br><br>
             </div>
             <div class="row text-center" style="padding: 5%">
                 <div class="col-md-6">
                     <div class="card" style="width: 300px;">
-                        <img class="card-img-top" src=https://codepen.io/brianna4444/pen/GQLJgR/image/small.png alt="Card image cap">
+                        <img class="card-img-top" src=https://codepen.io/brianna4444/pen/GQLJgR/image/small.png
+                             alt="Card image cap">
                         <div class="card-block">
-                            <a href="https://codepen.io/brianna4444/pen/GQLJgR"<h4 class="card-title" target="_blank" >Wikipedia Viewer</h4></a>
+                            <a href="https://codepen.io/brianna4444/pen/GQLJgR"<h4 class="card-title"
+                                                                                   target="_blank">Wikipedia
+                            Viewer</h4></a>
                             <p class="card-text">Search Wikipedia or choose to view random article</p>
 
                         </div>
@@ -104,37 +196,19 @@
                 </div>
                 <div class="col-md-6">
                     <div class="card" style="width: 300px;">
-                        <img class="card-img-top" src=https://codepen.io/brianna4444/pen/oErxRO/image/small.png  alt="Card image cap">
+                        <img class="card-img-top" src=https://codepen.io/brianna4444/pen/oErxRO/image/small.png
+                             alt="Card image cap">
                         <div class="card-block">
-                            <a href="https://codepen.io/brianna4444/pen/oErxRO?editors=1111"<h4 class="card-title" target="_blank" >TwitchTV App</h4></a>
+                            <a href="https://codepen.io/brianna4444/pen/oErxRO?editors=1111"<h4 class="card-title"
+                                                                                                target="_blank">
+                            TwitchTV App</h4></a>
                             <p class="card-text">Check status of Twitch followers </p>
 
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row text-center" style="padding: 5%">
-                <div class="col-md-6">
-                    <div class="card" style="width: 300px;">
-                        <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmiVlrCrWv7VGOeqL1DJSIZiP-5d7rA3sILjNqYhV_WXlGQdCO" alt="Card image cap">
-                        <div class="card-block">
-                            <a href="#"<h4 class="card-title" target="_blank" >Card Title</h4></a>
-                            <p class="card-text">Details Here</p>
 
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="card" style="width: 300px;">
-                        <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmiVlrCrWv7VGOeqL1DJSIZiP-5d7rA3sILjNqYhV_WXlGQdCO" alt="Card image cap">
-                        <div class="card-block">
-                            <a href="#"<h4 class="card-title" target="_blank" >Card Title</h4></a>
-                            <p class="card-text">Details Here </p>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
 
         </div>
 
@@ -145,15 +219,19 @@
         <h1 class="text-center">Contact</h1>
         <hr>
         <br>
+        <div class="row text-center"><i class="icon-iphone">(281) 301-8600</i></div>
+        <div class="row text-center">brianna.althage@gmail.com</div>
         <div class="row text-center" style="padding: 5%">
             <div class="col-md-6">
                 <div class="btnlist text-center">
-                    <a class="btn btn-default custom" target="_blank" href="https://codepen.io/brianna4444/" ><i class="fa fa-codepen" aria-hidden="true"></i>Codepen</a>
+                    <a class="btn btn-default custom" target="_blank" href="https://codepen.io/brianna4444/"><i
+                            class="fa fa-codepen" aria-hidden="true"></i>Codepen</a>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="btnlist text-center">
-                    <a class="btn btn-default custom" target="_blank" href="https://github.com/brianna4444" ><i class="fa fa-github" aria-hidden="true"></i>Github</a>
+                    <a class="btn btn-default custom" target="_blank" href="https://github.com/brianna4444?tab=repositories"><i
+                            class="fa fa-github" aria-hidden="true"></i>Github</a>
                 </div>
             </div>
             <!-- <div class="col-md-4">

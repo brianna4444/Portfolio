@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "main": "projectController.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianna4444/Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brianna4444/Portfolio/issues"
+  },
+  "homepage": "https://github.com/brianna4444/Portfolio#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "font-mfizz": "^2.4.1"
+  }
+}

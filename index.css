@@ -1,15 +1,19 @@
 body {
-    font-family: lobster;
+    font-family: "Arial Black";
     background: no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-image: url("images/pexels-photo-262325.jpeg");
+
 }
 
 .spacer{
     padding: 5%;
 }
+
+
 
 .block {
     background: rgba(0, 0, 0, 0.8);
