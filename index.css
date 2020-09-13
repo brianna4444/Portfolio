@@ -1,5 +1,5 @@
 body {
-    font-family: "Arial Black";
+    font-family: "Arial Black" !important;
     background: no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -24,6 +24,7 @@ body {
     font-size:  1.5em;
     padding: 3%;
 
+
 }
 .block2{
     background: rgba(0, 0, 0, 0.8);
@@ -47,7 +48,7 @@ img{
     width: 300px;
 }
 .custom{
-    width: 80px;
+    width: 100px;
 }
 
 .card{
