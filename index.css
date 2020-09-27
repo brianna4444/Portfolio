@@ -48,7 +48,7 @@ img{
     width: 300px;
 }
 .custom{
-    width: 100px;
+    width: 100px !important;
 }
 
 .card{
@@ -63,3 +63,4 @@ img{
 .card-text{
     font-size: .8em;
 }
+
