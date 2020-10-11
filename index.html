@@ -2,240 +2,275 @@
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <meta property="og:title" content="Brianna Althage | FullStack Developer" />
-    <meta property="og:description" content="Hi, I'm Brianna. I build and deploy user friendly websites and admin panels using the latest technologies." />
-    <meta property="og:image" content="" />
-    <meta property="og:image:width" content="1200" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta property="og:title" content="Brianna Althage | FullStack Developer"/>
+    <meta property="og:description"
+          content="Hi, I'm Brianna. I build and deploy user friendly websites and admin panels using the latest technologies."/>
+    <meta property="og:image" content=""/>
+    <meta property="og:image:width" content="1200"/>
 
-    <meta property="og:image:height" content="630" />
-    <meta property="og:type" content="website" />
+    <meta property="og:image:height" content="630"/>
+    <meta property="og:type" content="website"/>
     <meta property="og:url" content=“http://briannaalthage.com">
-    <meta property="og:site_name" content="Brianna Althage”>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-mfizz/dist/font-mfizz.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!--<script src="projectController.js"></script>-->
 </head>
 
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-
-<link rel="stylesheet" href="node_modules/font-mfizz/dist/font-mfizz.css">
-
-<link rel="stylesheet" href="fontAwesome/css/font-awesome.min.css">
-
-<link rel="stylesheet" href="index.css">
-<!--<script src="projectController.js"></script>-->
 <body>
 <div class='container-fluid'>
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#top">Brianna Althage</a>
-            </div>
-            <ul class="nav navbar-nav">
-                <li><a href="#about">Skills</a></li>
-                <li><a href="#portfolio">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+    <div class="row">
+        <nav class="col-12 navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Brianna Althage</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="#about">Skills <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#portfolio">Projects</a>
+                    <a class="nav-item nav-link" href="#contact">Contact</a>
 
-        </div>
-    </nav>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
     <a name="top"></a>
     <div class="spacer"></div>
     <a name="about"></a>
     <div class="block">
-        <div class="row text-center">
-            <h1>I am a full stack developer creating responsive websites, admin panels, and apps.</h1>
+        <div class="row about text-center">
+            <h1 class="col-12">I am a full stack developer creating responsive websites, admin panels, and apps.</h1>
         </div>
         <hr>
         <br>
-        <div class="row about p-1" align="center">
-            <h1>Technologies</h1>
-            <br>
-            <div class="col-xs-4">
+        <div class="row text-center">
+
+            <h1 class="col-12">Technologies</h1>
+
+        </div>
+        <br>
+        <div class="row text-center">
+            <div class="col-12 col-md-4">
 
                 <ul>AngularJS <i class="icon-angular" style="color:red"></i></ul>
                 <ul>Bootstrap <i class="icon-bootstrap" style="color:rebeccapurple"></i></ul>
-                    <ul>nginx <i class="icon-nginx" style="color:green"></i></ul>
+                <ul>nginx <i class="icon-nginx" style="color:green"></i></ul>
 
 
-
-                </div>
-            <div class="col-xs-4">
-                <ul >Express <span style="font-family: Arial; font-weight: lighter; font-size: 15px; background-color: white; color: black; width: max-content">Express</span></ul>
-                <ul>MongoDB <i class="icon-mongodb" style="color:green"></i> </ul>
+            </div>
+            <div class="col-12 col-md-4">
+                <ul>Express <span
+                        style="font-family: Arial; font-weight: lighter; font-size: 15px; background-color: white; color: black; width: max-content">Express</span>
+                </ul>
+                <ul>MongoDB <i class="icon-mongodb" style="color:green"></i></ul>
                 <ul>npm <i class="icon-npm" style="color:red"></i></ul>
 
             </div>
 
-            <div class="col-xs-4">
+            <div class="col-12 col-md-4">
 
                 <ul>Node.JS <i class="icon-nodejs" style="color:green"></i></ul>
                 <ul>JavaScript <i class="icon-javascript" style="color:yellow"></i></ul>
                 <ul>Linux <i class="fa fa-linux" aria-hidden="true"></i></ul>
 
             </div>
-
         </div>
-
     </div>
-    <div class="spacer"></div>
-    <a name="portfolio"></a>
-    <div class="block">
-        <h1 class="text-center">Projects</h1>
-        <hr>
-        <br>
-        <div class="row text-center" style="padding: 5%">
-            <div class="col-md-6">
-                <div class="card" style="width: 300px;">
-                    <img class="card-img-top"
-                         src="reeshaThumbnail.png"
-                         alt="Card image cap">
-                    <div class="card-block">
-                        <a href="http://reeshacollection.com"<h4 class="card-title" target="_blank">Reesha's Collection Website</h4></a>
-                        <p class="card-text">Retail Website using AngularJS and MongoDB. Featuring interactive Banner and Favorites Cart. </p>
 
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card" style="width: 300px;">
-                    <img class="card-img-top"
-                         src="reeshaAdmin.png"
-                         alt="Card image cap">
-                    <div class="card-block">
-                        <a href="#"<h4 class="card-title" target="_blank">Reesha's Collection Admin Panel</h4></a>
-                        <p class="card-text">Easy and visual user experience for managing products and website interface </p>
+</div>
+<div class="spacer"></div>
+<a name="portfolio"></a>
+<div class="block">
+    <h1 class="text-center">Projects</h1>
+    <hr>
+    <br>
+    <div class="row text-center">
+        <div class="col-md-6">
+            <div class="card w-100 mb-5" style="background-color: inherit !important">
+                <img class="card-img-top w-100" style="border-radius: 10%"
+                     src="reeshaThumbnail.png"
+                     alt="Card image cap">
+                <div class="card-block">
+                    <a href="http://reeshacollection.com"><h4 class="card-title" target="_blank">Reesha's Collection
+                        Website</h4></a>
+                    <p class="card-text">Retail Website using AngularJS and MongoDB. Featuring interactive Banner
+                        and Favorites Cart. </p>
 
-                    </div>
                 </div>
             </div>
         </div>
-        <div class="row text-center" style="padding: 5%">
-            <div class="col-md-6">
-                <div class="card" style="width: 300px;">
-                    <img class="card-img-top"
-                         src="tacThumbnail.png"
-                         alt="Card image cap">
-                    <div class="card-block">
-                        <a href="http://tactravels.com"<h4 class="card-title" target="_blank">TAC Travels Website</h4></a>
-                        <p class="card-text">Travel Agency website using Bootstrap and MongoDB to manage destination images, reviews, and website interface</p>
+        <div class="col-md-6">
+            <div class="card w-100 mb-5" style="background-color: inherit !important">
+                <img class="card-img-top w-100" style="border-radius: 10%"
+                     src="reeshaAdmin.png"
+                     alt="Card image cap">
+                <div class="card-block">
+                    <h4 class="card-title" style="color: #007bff" target="_blank">Reesha's Collection Admin Panel</h4>
+                    <p class="card-text">Easy and visual user experience for managing products and website
+                        interface </p>
 
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card" style="width: 300px;">
-                    <img class="card-img-top"
-                         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmiVlrCrWv7VGOeqL1DJSIZiP-5d7rA3sILjNqYhV_WXlGQdCO"
-                         alt="Card image cap">
-                    <div class="card-block">
-                        <a href="#"><h4 class="card-title" target="_blank">TAC Travels Admin Panel</h4></a>
-                        <p class="card-text">Easy and visual user experience for managing photo gallery and content. </p>
-
-                    </div>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="row text-center">
+        <div class="col-md-6">
+            <div class="card w-100 mb-5" style="background-color: inherit !important">
+                <img class="card-img-top w-100" style="border-radius: 10%"
+                     src="tacThumbnail.png"
+                     alt="Card image cap">
+                <div class="card-block">
+                    <a href="http://tactravels.com"><h4 class="card-title" target="_blank">TAC Travels Website</h4>
+                    </a>
+                    <p class="card-text">Travel Agency website using Bootstrap and MongoDB to manage destination
+                        images, reviews, and website interface</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card w-100 mb-5" style="background-color: inherit !important">
+                <img class="card-img-top w-100" style="border-radius: 10%"
+                     src="traveladmin.png"
+                     alt="Card image cap">
+                <div class="card-block">
+                    <h4 class="card-title" style="color: #007bff" target="_blank">TAC Travels Admin Panel</h4>
+                    <p class="card-text">Easy and visual user experience for managing photo gallery and
+                        content. </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
 
 
-        <div class="row text-center" style="padding: 5%">
-            <div class="col-md-6">
-                <div class="card" style="width: 300px;">
-                    <img class="card-img-top" src=https://codepen.io/brianna4444/pen/oErxRO/image/small.png
-                         alt="Card image cap">
-                    <div class="card-block">
-                        <a href="https://codepen.io/brianna4444/pen/oErxRO?editors=1111"><h4 class="card-title"
-                                                                                            target="_blank">
+    <div class="row text-center">
+        <div class="col-md-6">
+            <div class="card w-100 mb-5" style="background-color: inherit !important">
+                <img class="card-img-top w-100" style="border-radius: 10%"
+                     src=https://codepen.io/brianna4444/pen/oErxRO/image/small.png
+                     alt="Card image cap">
+                <div class="card-block">
+                    <a href="https://codepen.io/brianna4444/pen/oErxRO?editors=1111"><h4 class="card-title"
+                                                                                         target="_blank">
                         TwitchTV App</h4></a>
-                        <p class="card-text">Check status of Twitch followers </p>
+                    <p class="card-text">Check status of Twitch followers </p>
 
-                    </div>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="card" style="width: 300px;">
-                    <img class="card-img-top" src=https://codepen.io/brianna4444/pen/aqwweb/image/small.png
-                         alt="Card image cap">
-                    <div class="card-block">
-                        <a href="https://codepen.io/brianna4444/full/aqwweb/"><h4 class="card-title" target="_blank">
+        </div>
+        <div class="col-md-6">
+            <div class="card w-100 mb-5" style="background-color: inherit !important">
+                <img class="card-img-top w-100" style="border-radius: 10%"
+                     src=https://codepen.io/brianna4444/pen/aqwweb/image/small.png
+                     alt="Card image cap">
+                <div class="card-block">
+                    <a href="https://codepen.io/brianna4444/full/aqwweb/"><h4 class="card-title" target="_blank">
                         Random Quote Machine 1</h4></a>
-                        <p class="card-text">Clean and modern UI for viewing random quotes </p>
+                    <p class="card-text">Clean and modern UI for viewing random quotes </p>
 
-                    </div>
                 </div>
             </div>
         </div>
-        <div class="row text-center" style="padding: 5%">
-            <div class="col-md-6">
-                <div class="card" style="width: 300px;">
-                    <img class="card-img-top" src=https://codepen.io/brianna4444/pen/NywgpP/image/small.png
-                         alt="Card image cap">
-                    <div class="card-block">
-                        <a href="https://codepen.io/brianna4444/full/NywgpP/"<h4 class="card-title" target="_blank">
+    </div>
+    <div class="row text-center">
+        <div class="col-md-6">
+            <div class="card w-100 mb-5" style="background-color: inherit !important">
+                <img class="card-img-top w-100" style="border-radius: 10%"
+                     src=https://codepen.io/brianna4444/pen/NywgpP/image/small.png
+                     alt="Card image cap">
+                <div class="card-block">
+                    <a href="https://codepen.io/brianna4444/full/NywgpP/"><h4 class="card-title" target="_blank">
                         Random Quote Machine 2</h4></a>
-                        <p class="card-text">Inspirational UI for viewing random quotes</p>
+                    <p class="card-text">Inspirational UI for viewing random quotes</p>
 
-                    </div>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="card" style="width: 300px;">
-                    <img class="card-img-top" src=https://codepen.io/brianna4444/pen/bLaewP/image/small.png
-                         alt="Card image cap">
-                    <div class="card-block">
-                        <a href="https://codepen.io/brianna4444/full/bLaewP/"<h4 class="card-title" target="_blank">
+        </div>
+        <div class="col-md-6">
+            <div class="card w-100 mb-5" style="background-color: inherit !important">
+                <img class="card-img-top w-100" style="border-radius: 10%"
+                     src=https://codepen.io/brianna4444/pen/bLaewP/image/small.png
+                     alt="Card image cap">
+                <div class="card-block">
+                    <a href="https://codepen.io/brianna4444/full/bLaewP/"><h4 class="card-title" target="_blank">
                         Weather App</h4></a>
-                        <p class="card-text">Shows the local weather</p>
+                    <p class="card-text">Shows the local weather</p>
 
-                    </div>
-                </div>
-                <br><br><br>
-            </div>
-            <div class="row text-center" style="padding: 5%">
-                <div class="col-md-6">
-                    <div class="card" style="width: 300px;">
-                        <img class="card-img-top" src=https://codepen.io/brianna4444/pen/GQLJgR/image/small.png
-                             alt="Card image cap">
-                        <div class="card-block">
-                            <a href="https://codepen.io/brianna4444/pen/GQLJgR"<h4 class="card-title"
-                                                                                   target="_blank">Wikipedia
-                            Viewer</h4></a>
-                            <p class="card-text">Search Wikipedia or choose to view random article</p>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-
-                </div>
-            </div>
-
-
-        </div>
-
-    </div>
-    <div class="spacer"></div>
-    <a name="contact"></a>
-    <div class="block2">
-        <h1 class="text-center">Contact</h1>
-        <hr>
-        <br>
-        <div class="row text-center"><i class="icon-iphone"></i>(281) 301-8600</div>
-        <div class="row text-center"><i class="fa fa-envelope"></i> brianna.althage@gmail.com</div>
-        <div class="row text-center" style="padding: 5%">
-            <div class="col-md-6">
-                <div class="btnlist text-center">
-                    <a class="btn btn-default custom" target="_blank" href="https://codepen.io/brianna4444/"><i
-                            class="fa fa-codepen" aria-hidden="true"></i>Codepen</a>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="btnlist text-center">
-                    <a class="btn btn-default custom" target="_blank" href="https://github.com/brianna4444?tab=repositories"><i
-                            class="fa fa-github" aria-hidden="true"></i>Github</a>
                 </div>
             </div>
         </div>
+        <br><br><br>
     </div>
+    <div class="row text-center">
+        <div class="col-md-6">
+            <div class="card w-100 mb-5" style="background-color: inherit !important">
+                <img class="card-img-top w-100" style="border-radius: 10%"
+                     src=https://codepen.io/brianna4444/pen/GQLJgR/image/small.png
+                     alt="Card image cap">
+                <div class="card-block">
+                    <a href="https://codepen.io/brianna4444/pen/GQLJgR"><h4 class="card-title"
+                                                                            target="_blank">Wikipedia
+                        Viewer</h4></a>
+                    <p class="card-text">Search Wikipedia or choose to view random article</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+
+        </div>
+    </div>
+
+
+</div>
+<div class="spacer"></div>
+<a name="contact"></a>
+<div class="block2 w-75 align-content-center">
+    <h1 class="text-center">Contact</h1>
+    <hr>
+    <br>
+    <div class="row">
+        <div class="d-none d-md-block col-md-3"></div>
+            <i class="text-center col-xs-12 col-md-2 icon-iphone"></i>
+            <p class="d-none d-md-block col-md-7">(281) 301-8600</p>
+
+    </div>
+    <div class="row ">
+        <div class="d-none d-md-block col-md-3"></div>
+        <i class="text-center col-xs-12 col-md-2 fa fa-envelope"></i>
+        <p class="d-none d-md-block col-md-7">brianna.althage@gmail.com</p></div>
+
+    <div class="row " style="padding: 5%">
+        <div class="col-md-6">
+            <div class=" text-center">
+                <a target="_blank" href="https://codepen.io/brianna4444/">
+                    <button class="btn btn-info"><i
+                            class="fa fa-codepen" aria-hidden="true"></i>Codepen
+                    </button>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class=" text-center">
+                <a class="btn btn-info" target="_blank"
+                   href="https://github.com/brianna4444?tab=repositories"><i
+                        class="fa fa-github" aria-hidden="true"></i>Github</a>
+            </div>
+        </div>
+    </div>
+</div>
 </div>
 <div class="spacer"></div>
 </div>

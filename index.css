@@ -29,7 +29,7 @@ body {
 .block2{
     background: rgba(0, 0, 0, 0.8);
     color: white;
-    width: 37.5%;
+
     margin: auto;
     border-radius: 15px;
     font-size:  1.5em;
@@ -37,30 +37,24 @@ body {
 
 
 }
-img{
-    border-radius: 10%;
-    width: 200px;
-    height: 200px;
 
 
+
+
+/* For mobile */
+@media (max-width:800px){
+    .desktop-only{ display:none }
+    .mobile-only{ display: block}
+    .block2{
+        width: 75%;
+    }
 }
-.card-img-top{
-    width: 300px;
-}
-.custom{
-    width: 100px !important;
-}
-
-.card{
-    text-align: center;
-    margin: auto;
-
+/* For Desktop */
+@media (min-width:800px){
+    .desktop-only{ display: block }
+    .mobile-only{ display: none }
+    .block2{width: 75%}
 }
 
 
-
-
-.card-text{
-    font-size: .8em;
-}
 
