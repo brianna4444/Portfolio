@@ -45,8 +45,12 @@ body {
 @media (max-width:800px){
     .desktop-only{ display:none }
     .mobile-only{ display: block}
-    .block2{
-        width: 75%;
+    .block{
+        width: 100%
+    }
+
+    .about h1{
+        font-size: 2rem;
     }
 }
 /* For Desktop */

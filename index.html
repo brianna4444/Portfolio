@@ -16,15 +16,22 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/font-mfizz/dist/font-mfizz.css">
     <link rel="stylesheet" href="index.css">
-    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="/node_modules/popper.js/dist/popper.min.js"></script>
-    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="node_modules/@material/button/dist/mdc.button.min.css">
+
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
     <!--<script src="projectController.js"></script>-->
 </head>
 
 
 <body>
-<div class='container-fluid'>
+<div class="container-fluid">
 
     <div class="row">
         <nav class="col-12 navbar navbar-expand-lg navbar-light bg-light">
@@ -52,7 +59,7 @@
         <div class="row about text-center">
             <h1 class="col-12">I am a full stack developer creating responsive websites, admin panels, and apps.</h1>
         </div>
-        <hr>
+        <hr style="background-color: white">
         <br>
         <div class="row text-center">
 
@@ -60,35 +67,32 @@
 
         </div>
         <br>
+
         <div class="row text-center">
-            <div class="col-12 col-md-4">
-
-                <ul>AngularJS <i class="icon-angular" style="color:red"></i></ul>
-                <ul>Bootstrap <i class="icon-bootstrap" style="color:rebeccapurple"></i></ul>
-                <ul>nginx <i class="icon-nginx" style="color:green"></i></ul>
-
+            <div class="col-12 col-md-4 my-1">
+                <i class="icon-angular" style="color:red"></i> AngularJS
+            </div>
+            <div class="col-12 col-md-4 my-1"><i class="icon-bootstrap" style="color:rebeccapurple"></i> Bootstrap</div>
+            <div class="col-12 col-md-4 my-1"> <i class="icon-nginx" style="color:green"></i> nginx</div>
+            <div class="col-12 col-md-4 my-1"> <span
+                    style="font-family: Arial; font-weight: lighter; font-size: 15px; background-color: white; color: black; width: max-content">Express</span>
+                Express</div>
+            <div class="col-12 col-md-4 my-1"><i class="icon-mongodb" style="color:green"></i> MongoDB</div>
+            <div class="col-12 col-md-4 my-1"><i class="icon-npm" style="color:red"></i> npm</div>
+            <div class="col-12 col-md-4 my-1"><i class="icon-nodejs" style="color:green"></i> Node.JS</div>
+            <div class="col-12 col-md-4 my-1"><i class="icon-javascript" style="color:yellow"></i> JavaScript</div>
+            <div class="col-12 col-md-4 my-1"><i class="fa fa-linux" aria-hidden="true"></i> Linux</div>
 
             </div>
-            <div class="col-12 col-md-4">
-                <ul>Express <span
-                        style="font-family: Arial; font-weight: lighter; font-size: 15px; background-color: white; color: black; width: max-content">Express</span>
-                </ul>
-                <ul>MongoDB <i class="icon-mongodb" style="color:green"></i></ul>
-                <ul>npm <i class="icon-npm" style="color:red"></i></ul>
 
-            </div>
 
-            <div class="col-12 col-md-4">
 
-                <ul>Node.JS <i class="icon-nodejs" style="color:green"></i></ul>
-                <ul>JavaScript <i class="icon-javascript" style="color:yellow"></i></ul>
-                <ul>Linux <i class="fa fa-linux" aria-hidden="true"></i></ul>
 
-            </div>
+
         </div>
-    </div>
 
-</div>
+
+
 <div class="spacer"></div>
 <a name="portfolio"></a>
 <div class="block">
@@ -237,42 +241,53 @@
 </div>
 <div class="spacer"></div>
 <a name="contact"></a>
-<div class="block2 w-75 align-content-center">
+<div class="block align-content-center">
     <h1 class="text-center">Contact</h1>
-    <hr>
-    <br>
-    <div class="row">
-        <div class="d-none d-md-block col-md-3"></div>
-            <i class="text-center col-xs-12 col-md-2 icon-iphone"></i>
-            <p class="d-none d-md-block col-md-7">(281) 301-8600</p>
 
-    </div>
-    <div class="row ">
-        <div class="d-none d-md-block col-md-3"></div>
-        <i class="text-center col-xs-12 col-md-2 fa fa-envelope"></i>
-        <p class="d-none d-md-block col-md-7">brianna.althage@gmail.com</p></div>
+    <br class="d-none d-md-block">
+    <div class="row mb-2">
 
-    <div class="row " style="padding: 5%">
-        <div class="col-md-6">
-            <div class=" text-center">
-                <a target="_blank" href="https://codepen.io/brianna4444/">
-                    <button class="btn btn-info"><i
-                            class="fa fa-codepen" aria-hidden="true"></i>Codepen
-                    </button>
-                </a>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class=" text-center">
-                <a class="btn btn-info" target="_blank"
-                   href="https://github.com/brianna4444?tab=repositories"><i
-                        class="fa fa-github" aria-hidden="true"></i>Github</a>
-            </div>
-        </div>
+        <div class="col-2 d-block d-md-none"></div>
+        <div class="col-md-3 col-4 text-center my-1">
+            <a href="tel:281-301-8600">
+                <button class="mdc-fab" aria-label="Favorite">
+                    <div class="mdc-fab__ripple"></div>
+                    <span class="mdc-fab__icon material-icons">phone</span>
+                </button>
+            </a></div>
+
+        <div class="col-md-3 col-4 text-center my-1">
+            <a href="mailto:brianna.althage@gmail.com">
+                <button class="mdc-fab" aria-label="Favorite">
+                    <div class="mdc-fab__ripple"></div>
+                    <span class="mdc-fab__icon material-icons">mail</span>
+                </button>
+            </a></div>
+        <div class="col-2 d-block d-md-none"></div>
+        <div class="col-2 d-block d-md-none"></div>
+        <div class="col-md-3 col-4 text-center my-1">
+            <a target="_blank" href="https://github.com/brianna4444?tab=repositories">
+                <button class="mdc-fab" aria-label="Favorite">
+                    <div class="mdc-fab__ripple"></div>
+                    <span class="mdc-fab__icon material-icons">github</span>
+                </button>
+            </a></div>
+
+        <div class="col-md-3 col-4 text-center my-1">
+            <a target="_blank" href="https://codepen.io/brianna4444/">
+                <button class="mdc-fab" aria-label="Favorite">
+                    <div class="mdc-fab__ripple"></div>
+                    <span class="mdc-fab__icon material-icons"></span>
+
+                </button>
+            </a></div>
+        <div class="col-2 d-block d-md-none"></div>
     </div>
+
 </div>
-</div>
+
 <div class="spacer"></div>
+
 </div>
 </body>
 </html>
